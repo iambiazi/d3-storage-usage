@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    height: 825px;
+    background-color: #111111;
+    font-family: 'Acme', sans-serif;
+}
+
+a {
+    color: #CCCCCC;
+}
+.axis line{
+    stroke: #FFFFFF;
+    z-index: 100;
+}
+.axis path{
+    stroke: #FFFFFF;
+    z-index: 100;
+}
+.axis text{
+    fill: #FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 100;
+}
+.focus {
+    cursor: move;
+}
+.grid line {
+    stroke: white;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+.grid path {
+    stroke-width: 0;
+}
+
+#areaChart {
+ position: absolute;
+}
+
+#legend {
+  font-family: 'Acme', sans-serif;
+}
